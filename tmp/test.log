@@ -1,0 +1,174 @@
+I, [2022-09-21T01:04:18.947265 #47136]  INFO -- : > 4
+I, [2022-09-21T01:04:18.947511 #47136]  INFO -- : test
+I, [2022-09-21T01:04:18.952832 #47136]  INFO -- : Welcome to the Realpage CLI RPN Calculator!
+I, [2022-09-21T01:04:18.952864 #47136]  INFO -- : Press 'i' for instructions on use.
+Press '?' for a link to more info about RPN.
+Press 's' to see the current stack.
+Press 'c' to clear the current stack.
+Press 'w' to repeat this welcome message.
+Press 'q' to quit.
+I, [2022-09-21T01:04:18.953848 #47136]  INFO -- : > 5
+I, [2022-09-21T01:04:18.953880 #47136]  INFO -- : 5.0
+I, [2022-09-21T01:04:18.953914 #47136]  INFO -- : > 8
+I, [2022-09-21T01:04:18.953924 #47136]  INFO -- : 8.0
+I, [2022-09-21T01:04:18.954244 #47136]  INFO -- : > +
+I, [2022-09-21T01:04:18.954262 #47136]  INFO -- : 13.0
+I, [2022-09-21T01:04:18.954293 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.954300 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.954992 #47136]  INFO -- : > 5 8 +
+I, [2022-09-21T01:04:18.955014 #47136]  INFO -- : 13.0
+I, [2022-09-21T01:04:18.955041 #47136]  INFO -- : > 13 -
+I, [2022-09-21T01:04:18.955055 #47136]  INFO -- : 0.0
+I, [2022-09-21T01:04:18.955385 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.955395 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.956907 #47136]  INFO -- : > -3
+I, [2022-09-21T01:04:18.956923 #47136]  INFO -- : -3.0
+I, [2022-09-21T01:04:18.956953 #47136]  INFO -- : > -2
+I, [2022-09-21T01:04:18.956962 #47136]  INFO -- : -2.0
+I, [2022-09-21T01:04:18.957000 #47136]  INFO -- : > *
+I, [2022-09-21T01:04:18.957014 #47136]  INFO -- : 6.0
+I, [2022-09-21T01:04:18.957041 #47136]  INFO -- : > 5
+I, [2022-09-21T01:04:18.957049 #47136]  INFO -- : 5.0
+I, [2022-09-21T01:04:18.957075 #47136]  INFO -- : > +
+I, [2022-09-21T01:04:18.957141 #47136]  INFO -- : 11.0
+I, [2022-09-21T01:04:18.957194 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.957201 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.957644 #47136]  INFO -- : > 5
+I, [2022-09-21T01:04:18.957656 #47136]  INFO -- : 5.0
+I, [2022-09-21T01:04:18.957693 #47136]  INFO -- : > 9
+I, [2022-09-21T01:04:18.957702 #47136]  INFO -- : 9.0
+I, [2022-09-21T01:04:18.957725 #47136]  INFO -- : > 1
+I, [2022-09-21T01:04:18.957733 #47136]  INFO -- : 1.0
+I, [2022-09-21T01:04:18.957758 #47136]  INFO -- : > -
+I, [2022-09-21T01:04:18.957770 #47136]  INFO -- : 8.0
+I, [2022-09-21T01:04:18.957808 #47136]  INFO -- : > /
+I, [2022-09-21T01:04:18.957821 #47136]  INFO -- : 0.625
+I, [2022-09-21T01:04:18.957852 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.957858 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.958190 #47136]  INFO -- : > 3 0 /
+E, [2022-09-21T01:04:18.958212 #47136] ERROR -- : Division by zero
+I, [2022-09-21T01:04:18.958240 #47136]  INFO -- : > 4 5 +
+I, [2022-09-21T01:04:18.958254 #47136]  INFO -- : 9.0
+I, [2022-09-21T01:04:18.958291 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.958297 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.958562 #47136]  INFO -- : > 4 +
+E, [2022-09-21T01:04:18.958578 #47136] ERROR -- : There are not enough operands to complete operation.
+I, [2022-09-21T01:04:18.958604 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.958611 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.958983 #47136]  INFO -- : > c
+I, [2022-09-21T01:04:18.959893 #47136]  INFO -- : Stack has been cleared!
+I, [2022-09-21T01:04:18.959929 #47136]  INFO -- : > 5 8 +
+I, [2022-09-21T01:04:18.959945 #47136]  INFO -- : 13.0
+I, [2022-09-21T01:04:18.959974 #47136]  INFO -- : > s
+I, [2022-09-21T01:04:18.960530 #47136]  INFO -- : List of operands: [13.0]
+I, [2022-09-21T01:04:18.960563 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.960569 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.960859 #47136]  INFO -- : > i
+I, [2022-09-21T01:04:18.960875 #47136]  INFO -- : Press 'i' for instructions on use.
+Press '?' for a link to more info about RPN.
+Press 's' to see the current stack.
+Press 'c' to clear the current stack.
+Press 'w' to repeat this welcome message.
+Press 'q' to quit.
+I, [2022-09-21T01:04:18.960911 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.960917 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.961174 #47136]  INFO -- : > w
+I, [2022-09-21T01:04:18.961188 #47136]  INFO -- : Welcome to the Realpage CLI RPN Calculator!
+I, [2022-09-21T01:04:18.961213 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.961219 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.961467 #47136]  INFO -- : > ?
+I, [2022-09-21T01:04:18.961481 #47136]  INFO -- : For more on Reverse Polish Notation, please follow the link:
+https://en.wikipedia.org/wiki/Reverse_Polish_notation
+I, [2022-09-21T01:04:18.961506 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.961511 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:18.961754 #47136]  INFO -- : > t
+E, [2022-09-21T01:04:18.961769 #47136] ERROR -- : 't' isn't a supported operator or command. Please, use 'i' for more info.
+I, [2022-09-21T01:04:18.961794 #47136]  INFO -- : > q
+I, [2022-09-21T01:04:18.961800 #47136]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.177076 #47149]  INFO -- : > 4
+I, [2022-09-21T01:04:57.177306 #47149]  INFO -- : test
+I, [2022-09-21T01:04:57.182837 #47149]  INFO -- : Welcome to the Realpage CLI RPN Calculator!
+I, [2022-09-21T01:04:57.182869 #47149]  INFO -- : Press 'i' for instructions on use.
+Press '?' for a link to more info about RPN.
+Press 's' to see the current stack.
+Press 'c' to clear the current stack.
+Press 'w' to repeat this welcome message.
+Press 'q' to quit.
+I, [2022-09-21T01:04:57.183904 #47149]  INFO -- : > 5
+I, [2022-09-21T01:04:57.183937 #47149]  INFO -- : 5.0
+I, [2022-09-21T01:04:57.183972 #47149]  INFO -- : > 8
+I, [2022-09-21T01:04:57.183983 #47149]  INFO -- : 8.0
+I, [2022-09-21T01:04:57.184297 #47149]  INFO -- : > +
+I, [2022-09-21T01:04:57.184314 #47149]  INFO -- : 13.0
+I, [2022-09-21T01:04:57.184345 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.184352 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.185079 #47149]  INFO -- : > 5 8 +
+I, [2022-09-21T01:04:57.185097 #47149]  INFO -- : 13.0
+I, [2022-09-21T01:04:57.185126 #47149]  INFO -- : > 13 -
+I, [2022-09-21T01:04:57.185140 #47149]  INFO -- : 0.0
+I, [2022-09-21T01:04:57.185448 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.185456 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.186784 #47149]  INFO -- : > -3
+I, [2022-09-21T01:04:57.186801 #47149]  INFO -- : -3.0
+I, [2022-09-21T01:04:57.186830 #47149]  INFO -- : > -2
+I, [2022-09-21T01:04:57.186842 #47149]  INFO -- : -2.0
+I, [2022-09-21T01:04:57.186879 #47149]  INFO -- : > *
+I, [2022-09-21T01:04:57.186894 #47149]  INFO -- : 6.0
+I, [2022-09-21T01:04:57.186921 #47149]  INFO -- : > 5
+I, [2022-09-21T01:04:57.186929 #47149]  INFO -- : 5.0
+I, [2022-09-21T01:04:57.186956 #47149]  INFO -- : > +
+I, [2022-09-21T01:04:57.187017 #47149]  INFO -- : 11.0
+I, [2022-09-21T01:04:57.187085 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.187101 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.187556 #47149]  INFO -- : > 5
+I, [2022-09-21T01:04:57.187572 #47149]  INFO -- : 5.0
+I, [2022-09-21T01:04:57.187615 #47149]  INFO -- : > 9
+I, [2022-09-21T01:04:57.187625 #47149]  INFO -- : 9.0
+I, [2022-09-21T01:04:57.187651 #47149]  INFO -- : > 1
+I, [2022-09-21T01:04:57.187660 #47149]  INFO -- : 1.0
+I, [2022-09-21T01:04:57.187686 #47149]  INFO -- : > -
+I, [2022-09-21T01:04:57.187701 #47149]  INFO -- : 8.0
+I, [2022-09-21T01:04:57.187738 #47149]  INFO -- : > /
+I, [2022-09-21T01:04:57.187752 #47149]  INFO -- : 0.625
+I, [2022-09-21T01:04:57.187782 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.187788 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.188128 #47149]  INFO -- : > 3 0 /
+E, [2022-09-21T01:04:57.188148 #47149] ERROR -- : Division by zero
+I, [2022-09-21T01:04:57.188173 #47149]  INFO -- : > 4 5 +
+I, [2022-09-21T01:04:57.188195 #47149]  INFO -- : 9.0
+I, [2022-09-21T01:04:57.188221 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.188228 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.188492 #47149]  INFO -- : > 4 +
+E, [2022-09-21T01:04:57.188507 #47149] ERROR -- : There are not enough operands to complete operation.
+I, [2022-09-21T01:04:57.188537 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.188543 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.188878 #47149]  INFO -- : > c
+I, [2022-09-21T01:04:57.189805 #47149]  INFO -- : Stack has been cleared!
+I, [2022-09-21T01:04:57.189838 #47149]  INFO -- : > 5 8 +
+I, [2022-09-21T01:04:57.189855 #47149]  INFO -- : 13.0
+I, [2022-09-21T01:04:57.189886 #47149]  INFO -- : > s
+I, [2022-09-21T01:04:57.190431 #47149]  INFO -- : List of operands: [13.0]
+I, [2022-09-21T01:04:57.190460 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.190466 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.190744 #47149]  INFO -- : > i
+I, [2022-09-21T01:04:57.190762 #47149]  INFO -- : Press 'i' for instructions on use.
+Press '?' for a link to more info about RPN.
+Press 's' to see the current stack.
+Press 'c' to clear the current stack.
+Press 'w' to repeat this welcome message.
+Press 'q' to quit.
+I, [2022-09-21T01:04:57.190788 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.190795 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.191040 #47149]  INFO -- : > w
+I, [2022-09-21T01:04:57.191055 #47149]  INFO -- : Welcome to the Realpage CLI RPN Calculator!
+I, [2022-09-21T01:04:57.191080 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.191087 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.191336 #47149]  INFO -- : > ?
+I, [2022-09-21T01:04:57.191351 #47149]  INFO -- : For more on Reverse Polish Notation, please follow the link:
+https://en.wikipedia.org/wiki/Reverse_Polish_notation
+I, [2022-09-21T01:04:57.191376 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.191383 #47149]  INFO -- : Calculation terminated. Goodbye!
+I, [2022-09-21T01:04:57.191622 #47149]  INFO -- : > t
+E, [2022-09-21T01:04:57.191637 #47149] ERROR -- : 't' isn't a supported operator or command. Please, use 'i' for more info.
+I, [2022-09-21T01:04:57.191661 #47149]  INFO -- : > q
+I, [2022-09-21T01:04:57.191668 #47149]  INFO -- : Calculation terminated. Goodbye!

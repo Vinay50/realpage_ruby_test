@@ -1,0 +1,16 @@
+# Logfile created on 2022-09-21 01:05:03 +0530 by logger.rb/v1.4.2
+I, [2022-09-21T01:05:03.899405 #47151]  INFO -- : Welcome to the Realpage CLI RPN Calculator!
+I, [2022-09-21T01:05:03.899446 #47151]  INFO -- : Press 'i' for instructions on use.
+Press '?' for a link to more info about RPN.
+Press 's' to see the current stack.
+Press 'c' to clear the current stack.
+Press 'w' to repeat this welcome message.
+Press 'q' to quit.
+I, [2022-09-21T01:05:07.062142 #47151]  INFO -- : > 5 8 +
+I, [2022-09-21T01:05:07.063052 #47151]  INFO -- : 13.0
+I, [2022-09-21T01:06:13.471592 #47151]  INFO -- : > quit
+E, [2022-09-21T01:06:13.473279 #47151] ERROR -- : 'quit' isn't a supported operator or command. Please, use 'i' for more info.
+I, [2022-09-21T01:06:16.271687 #47151]  INFO -- : > /
+E, [2022-09-21T01:06:16.272192 #47151] ERROR -- : There are not enough operands to complete operation.
+I, [2022-09-21T01:06:38.428833 #47151]  INFO -- : > q
+I, [2022-09-21T01:06:38.430314 #47151]  INFO -- : Calculation terminated. Goodbye!
